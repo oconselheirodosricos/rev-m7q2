@@ -1,0 +1,86 @@
+# Como continuar leal a Jeová ao enfrentar testes de fé
+
+> Reunião: **Sentinela** · Semana de estudo: 10-16 de agosto de 2026
+> Fonte: https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-junho-2026/Como-continuar-leal-a-Jeov%C3%A1-ao-enfrentar-testes-de-f%C3%A9/
+
+**Texto-base:** “Senhor, para quem iremos? O senhor tem declarações de vida eterna.”: JOÃO 6:68 .
+
+## Subtítulos
+
+- JEOVÁ É O CRIADOR
+- JEOVÁ É O AUTOR DA BÍBLIA
+- AS TESTEMUNHAS DE JEOVÁ SÃO O POVO DE DEUS
+- NUNCA ABANDONE JEOVÁ
+- COMO AS SEGUINTES VERDADES PODEM NOS AJUDAR QUANDO SURGEM TESTES DE FÉ?
+
+## Parágrafos
+
+**1.** “ESSAS palavras são chocantes. Quem pode escutar isso?” ( João 6:60 ) Foi assim que muitos discípulos de Jesus reagiram ao ouvir as coisas que ele estava ensinando em Cafarnaum. Jesus tinha dito: “A menos que comam a carne do Filho do Homem e bebam o seu sangue, vocês não têm vida em si mesmos.” E ele continuou: “Quem se alimenta da minha carne e bebe o meu sangue tem vida eterna, e eu o ressuscitarei no último dia.”: João 6:53, 54 .
+
+**2.** Para alguns, as palavras de Jesus foram tão fortes que eles deixaram de segui-lo. Será que foi porque não tinham nenhuma fé nele? Na verdade, antes dessa ocasião, alguns, incluindo os discípulos de Jesus, ficaram tão impressionados com o que ele tinha feito que disseram: “Este é realmente o Profeta que devia vir ao mundo.” ( João 6:14 ) Então fica claro que aquelas pessoas tinham alguma fé em Jesus. Mas quando essa fé foi testada, eles não continuaram leais a ele.
+
+**3.** Os apóstolos tiveram uma reação diferente. Quando Jesus perguntou se eles também queriam deixar de segui-lo, Pedro respondeu: “Senhor, para quem iremos? O senhor tem declarações de vida eterna. Nós cremos e sabemos que o senhor é o Santo de Deus.” ( João 6:68, 69 ) Repare que Pedro não disse que ele e os outros apóstolos tinham entendido totalmente o que Jesus quis dizer quando falou que eles precisariam comer sua carne e beber seu sangue. Independentemente do que tinham entendido naquele momento, eles escolheram continuar leais a Jesus. Por quê? Porque a fé deles era baseada numa verdade inegável: Jesus era “o Cristo de Deus”.: Luc. 9:20, 35 .
+
+**4.** Nossa lealdade a Jeová pode ser testada de várias maneiras. Por exemplo, quando há um ajuste de entendimento sobre um ensino bíblico ou uma mudança na maneira como pregamos. Outra situação é quando passamos por alguma tragédia e ficamos pensando por que Jeová não impediu isso. Nossa lealdade também pode ser testada quando um amigo nos magoa ou alguém que respeitamos nos trata de uma maneira que parece injusta.
+
+**5.** Para ilustrar por que é importante que a nossa fé tenha um alicerce firme, pense em um prédio que é construído numa região onde acontecem muitos terremotos. Para continuar de pé, esse prédio precisa de um alicerce firme. Da mesma maneira, nossa fé precisa de um alicerce firme para conseguirmos enfrentar testes como os mencionados no parágrafo anterior. Se continuarmos fortalecendo o alicerce da nossa fé, vamos continuar firmes e leais a Jeová, mesmo enfrentando desafios., 1 Cor. 15:58 ; leia Colossenses 1:23 .
+
+**6.** Mesmo quando muitos abandonaram Jesus, os apóstolos continuaram leais a ele. Por quê? Eles estavam convencidos que Jeová deve ser adorado por ser o Criador de todas as coisas; que Jesus é o Filho de Deus e tem “declarações de vida eterna”; e que Jesus tem total apoio de Jeová. Agora, em vez de considerarmos várias situações que podem testar nossa fé, vamos nos concentrar em três verdades que podem nos ajudar a continuar bem firmes, seja qual for o teste que enfrentarmos. São elas: (1) Jeová é o Criador de todas as coisas; (2) Jeová é o Autor da Bíblia; e (3) as Testemunhas de Jeová são o povo de Deus. Se estivermos totalmente convencidos dessas três verdades, vamos continuar leais a Jeová em qualquer situação.
+
+**7.** Leia Apocalipse 4:11 . Esse texto nos lembra que Jeová criou todas as coisas. Esse fato, por si só, já torna Jeová digno de nossa adoração. E quando meditamos no seu impressionante poder, nós ficamos convencidos que ele pode nos ajudar em qualquer desafio. Só que, por culpa de Satanás, o mundo está cheio de informações falsas que fazem as pessoas duvidarem da existência de Deus. Alguns cientistas talvez até defendam a ideia de que a vida surgiu sozinha. É importante estarmos totalmente convencidos que Jeová é o Criador e que ele nos ama. Assim, quando sofrermos, não vamos ter dúvida de que ele existe e que vai nos ajudar.: Heb. 11:6 .
+
+**8.** Se você começar a duvidar que Jeová é o Criador, aja imediatamente. Pesquise a fundo informações em nossas publicações sobre a verdade clara e evidente de que Jeová criou todas as coisas. Nas brochuras A Vida: Teve um Criador? e A Origem da Vida: Cinco Perguntas Que Merecem Resposta, você pode encontrar muitas informações que vão fortalecer sua fé. Além disso, você pode encontrar outras fortes evidências na série “ Teve um Projeto? ”, no site jw.org. Jessica, uma jovem dos Estados Unidos, diz: “Depois de ler a brochura Origem da Vida, eu tive certeza de que os fatos mostram que um Projetista muito inteligente está por trás de tudo. Eu já sabia disso, mas os argumentos dessa brochura me ajudaram a eliminar qualquer dúvida que eu tinha.” Outra coisa que ajudou muitas pessoas foi reler o livro Existe um Criador Que Se Importa com Você? . Pode ser que você já tenha lido essas publicações, mas que tal ler novamente?
+
+**9.** No seu próximo projeto de estudo pessoal, você pode analisar evidências que provam que Deus existe. Além de fortalecer sua fé na existência de Jeová, sua pesquisa vai ajudar você a conhecer melhor a personalidade dele. ( Rom. 1:20 ) Você também vai poder usar o que aprendeu para ajudar outros que duvidam que Deus existe. O fato é: Jeová nos deu inúmeras provas de que ele é o nosso Criador.
+
+**10.** Nebula: IAC/RGO/David Malin Images; fish and car: Mercedes-Benz USA; plane: Kristen Bartlett/University of Florida
+
+**11.** 10 Leia 2 Timóteo 3:16, 17 . A Bíblia é uma mensagem inspirada de Jeová para a humanidade. Ela responde às perguntas mais importantes da vida, nos diz qual é a vontade de Jeová e o que ele quer que façamos. Nós acreditamos que Jeová é o Autor da Bíblia, o que faz da Bíblia o livro mais importante em nossa vida. Por isso, fazemos o máximo para entender a Palavra de Deus e colocar em prática o que ela ensina.
+
+**12.** 11 Por que temos certeza de que Jeová é o Autor da Bíblia? Por várias razões. Por exemplo, a Bíblia é exata ao falar sobre assuntos históricos. ( Luc. 3:1, 2 ) Ela também é exata quando fala sobre a natureza. ( Jó 26:7 ) Além disso, ela é o livro mais distribuído de todos os tempos, apesar dos esforços de Satanás de eliminá-la. A Bíblia foi escrita por uns 40 homens num período de cerca de 1.600 anos; ainda assim, sua mensagem se completa e não se contradiz. Mesmo tendo sido escrita há muito tempo, seus conselhos continuam atuais e ajudam milhões de pessoas até hoje. ( Pro. 13:20; Provérbios 15:21; Mat. 7:12 ) E muitas profecias da Bíblia já se cumpriram, o que é mais um motivo para confiarmos nela. ( Jos. 23:14 ) Com toda a certeza, a Bíblia é um livro inspirado por Deus!
+
+**13.** 12 O que devemos fazer se começarmos a ter dúvidas de que Jeová é o Autor da Bíblia? Devemos colocar isso em oração e agir em harmonia com o que pedimos. Veja o que um jovem irmão chamado Jordan, que foi criado como Testemunha de Jeová, diz: “Eu não vou logo acreditando em tudo que me falam. Eu preciso provar pra mim mesmo se aquilo é verdade. Sinceramente, eu ainda tenho algumas dúvidas de vez em quando. Mas aí eu me esforço para fazer pesquisas em nossas publicações, encontrar respostas e eliminar minhas dúvidas.” Quanto mais ficamos convencidos que Jeová inspirou a Bíblia, mais fortalecemos o alicerce da nossa fé., 1 Cor. 3:12, 13 .
+
+**14.** 13 Se em algum momento começarmos a ter dúvidas de que as Testemunhas de Jeová são a organização que Jeová está usando hoje, não podemos deixar que elas criem raízes. Em vez disso, precisamos esclarecer nossas dúvidas. Por exemplo, podemos meditar no seguinte: ‘Quem está fazendo seu melhor para levar uma vida de acordo com os padrões da Bíblia? Quem baseia suas crenças no que a Bíblia diz? Quem está fazendo a vontade de Jeová hoje?’: Mat. 7:20, 21; 2 Tim. 4:3, 4 .
+
+**15.** 14 Ao analisar quem está fazendo a vontade de Deus hoje, podemos nos perguntar: ‘Quem está realizando o trabalho de pregação que Jesus disse que ocorreria durante os últimos dias?’ ( Mat. 24:14 ) A resposta é bem fácil de enxergar: Deus está usando o seu povo, as Testemunhas de Jeová, para realizar a obra de pregação. Apenas as Testemunhas de Jeová pregam as boas novas do Reino de Deus em mais de 240 países e territórios. E esse trabalho já é realizado há mais de cem anos. Sem dúvida, as Testemunhas de Jeová continuam focadas e consideram a pregação o trabalho mais importante que existe.: Mat. 28:19, 20 .
+
+**16.** 15 Leia Mateus 6:9 e Isaías 43:10 . Fazemos parte de um povo que é identificado pelo nome pessoal de Deus, Jeová, e isso torna esse nome conhecido. Então, temos muito orgulho de ser chamados Testemunhas de Jeová. Hoje a maioria das pessoas não sabe que o nome de Deus é Jeová, mas nós nos esforçamos muito para produzir uma Bíblia em que o nome de Deus aparece nos lugares em que deveria. Ele é encontrado mais de 7 mil vezes no texto principal da Tradução do Novo Mundo da Bíblia Sagrada.
+
+**17.** 16 Leia João 13:34, 35 . Nossa família mundial é um milagre moderno. O amor e união que existe entre nós é algo que chama atenção no mundo hoje, que é tão frio e dividido. Nós somos de culturas diferentes e temos histórias de vida diferentes, mesmo assim nos esforçamos ao máximo para ter amor e paz entre nós. Já experimentou visitar outra congregação durante uma viagem? Essa é uma boa oportunidade para meditar no amor e na união dos nossos irmãos e irmãs. Você vai ter mais uma prova de que Jeová está mesmo usando suas Testemunhas para fazer sua vontade hoje. Lembrar disso pode nos ajudar a continuar leais a Jeová em qualquer teste de fé.
+
+**18.** 17 Nós vivemos em tempos críticos e difíceis de suportar. É por isso que esses últimos dias trazem tantas dificuldades para todos nós. ( 2 Tim. 3:1, 13 ) Talvez passemos por situações desafiadoras. Pode ser que a organização nos dê orientações que não entendemos completamente. Ou alguém na congregação talvez nos magoe ou faça algo injusto contra nós. Seja qual for o problema, talvez a gente não veja logo uma saída ou não tenha as respostas às nossas perguntas.
+
+**19.** 18 Apesar de todo o conflito emocional que essas situações podem nos causar, sempre podemos continuar leais a Jeová. Por quê? Porque estamos convencidos que ele é o Criador, que ele é o Autor da Bíblia e que as Testemunhas de Jeová são o seu povo. Assim como Pedro disse a Jesus, nós também podemos dizer a Jeová: ‘Para quem iremos? O Senhor tem declarações de vida eterna.’
+
+## Perguntas de estudo
+
+- 1-2. O que aconteceu enquanto Jesus estava ensinando em Cafarnaum?
+- 3. Como os apóstolos reagiram às palavras de Jesus, e por quê? (Veja também a imagem.)
+- 4. Que testes talvez enfrentemos?
+- 5. Como podemos ilustrar a importância de fortalecer nossa fé? ( Colossenses 1:23 )
+- 6. O que ajudou os apóstolos a continuar leais a Jesus?
+- 7. O que Apocalipse 4:11 nos lembra, e por que é importante ter certeza disso?
+- 8-9. O que você deve fazer se começar a ter dúvidas de que Jeová é o Criador? (Veja também a imagem.)
+- 10. Como encaramos a Bíblia? ( 2 Timóteo 3:16, 17 )
+- 11. O que convence você que a Bíblia é inspirada por Deus?
+- 12. O que devemos fazer se já não temos tanta certeza de que Jeová é o Autor da Bíblia?
+- 13. O que devemos fazer se começarmos a duvidar sobre quem é o povo de Deus hoje?
+- 14. Como as Testemunhas de Jeová têm sido usadas para cumprir a profecia de Mateus 24:14 ?
+- 15. Como as Testemunhas de Jeová dão honra ao nome de Deus hoje? ( Mateus 6:9; Isaías 43:10 )
+- 16. Por que podemos dizer que as Testemunhas de Jeová estão obedecendo a ordem em João 13:34, 35 ? (Veja também a imagem.)
+- 17-18. Que situações talvez enfrentemos, mas o que podemos dizer com confiança?
+
+## Descrições de imagem
+
+- Muitos que estavam seguindo Jesus o abandonaram, mas Pedro e os outros apóstolos continuaram com ele (Veja o parágrafo 3.)
+- Você já deve ter lido a brochura A Vida: Teve um Criador?. Mas o que acha de ler de novo? (Veja o parágrafo 8.)
+- O amor e a união de nossa família mundial é um milagre moderno (Veja o parágrafo 16.) a
+
+## Perguntas finais
+
+> Título do quadro: COMO AS SEGUINTES VERDADES PODEM NOS AJUDAR QUANDO SURGEM TESTES DE FÉ?
+
+- Jeová é o Criador
+- A Bíblia é a Palavra de Deus
+- As Testemunhas de Jeová são o povo de Deus
