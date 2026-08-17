@@ -165,6 +165,16 @@ Este quadro já sumiu **em silêncio** de 3 semanas que foram pro ar (20-26 jul,
 - **PUBLICA (colapsada):** em pergunta cuja resposta é LISTA de auto-exame ou recap final, a pública traz **só `Resposta:`** (sem os 3 movimentos). No PESSOAL essas mantêm Resposta+Complementar+Laurinha. `[IMPLÍCITA, formalizar]`
 - 3 alavancas didáticas da pública `[PROMPT]`: (1) causa-e-efeito explícito, a explicação não mais longa que a afirmação; (2) uma imagem concreta por ideia abstrata, do artigo/Bíblia, nunca inventada; (3) micro-pergunta de aplicação no fim.
 
+### 3.6 Caixa lateral supletiva `@CAIXA <título>` `[NOVO 17/08/2026][CÓDIGO][PROMPT]`
+
+Achado real da Fase 3/4 do PEA "JW PREP 100%" (`AUDITORIA_JWPREP.md`, 17/08/2026): 6 das 12 semanas têm no artigo uma caixa lateral SEM campo de resposta do leitor (bio de publicador, dica, lista de assuntos/perguntas), diferente da caixa de recap (§3.3.1, que SEMPRE tem campo de resposta). É o inverso estrutural: mesmo critério do `boxContent`, mas sem `gen-field`/`textarea` marca caixa supletiva, não recap.
+
+1. **Extração estrutural:** `src/scrape.py::_caixas_sem_resposta(art)` — mesma lógica de `_recap`, invertida (ausência do campo de resposta, não presença). Título = `boxTtl` irmão dentro do mesmo `<aside>`. Nunca por palavra-chave (mesma armadilha do §3.3.1 se aplica aqui).
+2. **No MD, a caixa é DECLARADA:** `@CAIXA <título verbatim>` seguido de texto livre até a próxima diretiva `@`, o próximo `## ` ou a próxima pergunta numerada `**N. ...**`. Pode aparecer em qualquer ponto do artigo (perto do parágrafo relacionado); não precisa ficar no fim.
+3. **Compartilhada entre PESSOAL e PUBLICA** (como as imagens e o recap), exceto quando o texto original cita referência bíblica fora da allowlist do artigo: nesse caso a PUBLICA remove a notação formal capítulo:versículo (mantém a ideia em prosa), a PESSOAL mantém como `full_extra_refs` — mesmo padrão já usado pro resto do documento.
+4. **Render:** `web/build.py::caixa_html()`, classe CSS `.caixa-supletiva`, visualmente distinta do quadro de recap (que tem pergunta+resposta) e da consideração numerada.
+5. **O auditor confere:** `web/auditor.py::_caixa_lateral_sem_resposta_sentinela` reabre a fonte ao vivo, extrai as caixas reais e confirma que cada título aparece em `doc["caixas"]` do output gerado — não basta a tag existir, tem que cobrir o que a fonte tem.
+
 ### 3.5 Imagens comentadas (Sentinela: no fim, bloco `## Imagens`) `[CÓDIGO][PROMPT]`
 ```
 @IMG <parágrafo#> | <url> | <alt/cena> | <legenda curta>

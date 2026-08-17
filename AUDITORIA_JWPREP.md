@@ -153,6 +153,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
@@ -178,6 +179,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B', 'C', 'D', 'E'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
@@ -203,6 +205,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B', 'C'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
@@ -228,6 +231,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B', 'C'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
@@ -253,6 +257,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B', 'C'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
@@ -278,6 +283,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PESSOAL |
 | Parte 8: todo item oficial dos 4 blocos aparece verbatim | SIM | citação pareada por item, PUBLICA |
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
+| Sequência de letra de imagem sem furo (A, B, C...) | SIM | letras da fonte e do nosso output batem: ['A', 'B'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
 **O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
