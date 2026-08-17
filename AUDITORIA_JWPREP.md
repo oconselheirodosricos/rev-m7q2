@@ -3,7 +3,7 @@
 Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a fonte AO VIVO ou reconferiu contra o MD bruto scrapeado (nunca aceita o nosso output como verdade sozinho). REPROVADO = falha de acesso à fonte, tratado como reprovação, nunca como aprovação por omissão.
 
 
-**Resumo:** 12 semanas auditadas, 6 item(ns) não batendo ou reprovado(s) no total.
+**Resumo:** 12 semanas auditadas, 0 item(ns) não batendo ou reprovado(s) no total.
 
 
 ## Semana 2026-06-15
@@ -59,7 +59,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-06-29 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 2 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-abril-2026/Marido-e-esposa-continuem-fortalecendo-a-amizade-entre-voc%C3%AAs/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 2 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Que lugar meu marido ou esposa tem na minha vida?', 'Ajudas para fortalecer a amizade no casamento']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -67,7 +67,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | VM: vídeo tem transcrição real OU nota honesta explícita | N/A | skip legítimo do teste de origem: 2026-06-29: sem vídeo no programa desta semana |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
 
 ## Semana 2026-07-06
 
@@ -101,7 +101,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-07-13 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 1 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-maio-2026/Como-usar-os-princ%C3%ADpios-b%C3%ADblicos-para-treinar-nossa-consci%C3%AAncia/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 1 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Você consegue identificar os princípios?']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -109,7 +109,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | VM: vídeo tem transcrição real OU nota honesta explícita | N/A | skip legítimo do teste de origem: 2026-07-13: transcrição real encontrada, nota honesta não é obrigatória |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
 
 ## Semana 2026-07-20
 
@@ -122,7 +122,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-07-20 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 1 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-maio-2026/Seja-s%C3%A1bio-em-suas-decis%C3%B5es-sobre-ensino-adicional/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 1 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Princípios bíblicos que podem ajudar você']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -130,7 +130,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | VM: vídeo tem transcrição real OU nota honesta explícita | N/A | skip legítimo do teste de origem: 2026-07-20: transcrição real encontrada, nota honesta não é obrigatória |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
 
 ## Semana 2026-07-27
 
@@ -168,7 +168,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-08-03 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 1 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-maio-2026/Respeite-as-decis%C3%B5es-de-outros/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 1 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Quando você não concorda']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -180,7 +180,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
 
 ## Semana 2026-08-10
 
@@ -243,7 +243,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-08-24 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 1 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-junho-2026/Nosso-grupo-de-servi%C3%A7o-de-campo-%C3%A9-um-presente-para-n%C3%B3s/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 1 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Dicas para o superintendente de grupo']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -255,7 +255,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.
 
 ## Semana 2026-08-31
 
@@ -268,7 +268,7 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PESSOAL |
 | Sentinela: caixa de recap verbatim no nosso output | SIM | citação pareada, PUBLICA |
 | Numeração combinada de parágrafo | N/A | fonte de 2026-08-31 não tem exemplo — checado no MD bruto, 0 ocorrências |
-| Caixa lateral sem campo de resposta | NÃO | fonte TEM 1 caixa(s) sem campo de resposta em https://www.jw.org/pt/biblioteca/revistas/sentinela-estudo-junho-2026/Como-voc%C3%AA-pode-escutar-com-mais-aten%C3%A7%C3%A3o/, sem tag dedicada no nosso output hoje (gap real, registrado no INVENTARIO) |
+| Caixa lateral sem campo de resposta | SIM | 1 caixa(s) da fonte, todas presentes via @CAIXA no nosso output (títulos: ['Dicas para escutar com mais atenção']) |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PESSOAL |
 | VM: título de cada parte bate com a fonte | SIM | citação pareada por parte, PUBLICA |
 | VM: tempo de cada parte bate com a fonte | SIM | citação pareada por parte |
@@ -280,4 +280,4 @@ Gerado por `web/auditor.py`. Cada linha vem de uma checagem que abriu/contou a f
 | Parte 8: 'Aprenda mais' com tag própria e duração do vídeo | SIM | regex de duração (M:SS) + campo hist['aprenda_mais'] |
 | Zero travessão/en-dash (—/–) em todo output | SIM | grep -n '—\\|–' = 0 hits nos arquivos desta semana |
 
-**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** Caixa lateral sem campo de resposta
+**O QUE A FONTE TEM E A NOSSA SAÍDA NÃO TEM:** vazia — nada pendente nesta semana.

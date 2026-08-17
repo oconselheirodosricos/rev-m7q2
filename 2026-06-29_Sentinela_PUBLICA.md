@@ -47,6 +47,11 @@ Como aplicar na nossa vida: Trate a amizade do casamento como algo vivo, que ped
 Resposta: Em Mateus 19:6, marido e esposa são "uma só carne". Como essa amizade não se mantém sozinha, fortalecê-la é manutenção do que Jeová uniu: cuidada, ela vira o relacionamento mais achegado que duas pessoas podem ter.
 ```
 
+@CAIXA Que lugar meu marido ou esposa tem na minha vida?
+1. Jeová. Nossa amizade com Jeová é a coisa mais importante na nossa vida. Nós nunca vamos desagradar a Jeová só para agradar nosso marido ou esposa.
+2. Nosso marido ou esposa. Nós somos "uma só carne" com a pessoa com quem casamos. Nós cuidamos dessa pessoa tão bem quanto cuidamos de nós mesmos.
+3. Outras pessoas e responsabilidades. Nós queremos cuidar dos nossos pais e parentes, e também dos irmãos e de outras responsabilidades na congregação. Mas tirando Jeová, nada nem ninguém é mais importante na nossa vida do que o bem-estar e a felicidade do nosso marido ou esposa.
+
 ---
 
 ## COMO ESCOLHER UM AMIGO PARA A VIDA TODA
@@ -154,6 +159,9 @@ O que o texto nos mostra: Fazendo a sua parte do jeito de Jeová: o solteiro esc
 Como aplicar na nossa vida: Não espere a felicidade cair pronta, faça a sua parte, do jeito de Jeová, hoje mesmo.
 Resposta: Fazendo a sua parte do jeito de Jeová: escolhendo bem (solteiros) ou continuando a fortalecer a amizade e a resolver problemas (casados), sempre com a ajuda dele. Assim dá pra "desfrutar a vida" (Eclesiastes 9:9) com a pessoa mais especial.
 ```
+
+@CAIXA Ajudas para fortalecer a amizade no casamento
+A organização de Jeová fornece várias ajudas para os casais fortalecerem sua amizade e até recuperarem essa amizade se ela estiver abalada. Você já usou algumas das ajudas abaixo? A brochura "Você Pode Ter uma Família Feliz!"; a série de vídeos "Como Ser Feliz no Casamento?"; a série de artigos "Ajuda para a Família"; a seção "Casamento e Família" do site jw.org.
 
 ## Imagens
 

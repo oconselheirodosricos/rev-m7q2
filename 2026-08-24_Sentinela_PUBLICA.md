@@ -56,6 +56,9 @@ Como aplicar na nossa vida: Repare que o pastor de Provérbios 27:23 conhece “
 Resposta: (a) Ajudar os publicadores do seu grupo a fazer progresso espiritual. (b) Mostrando interesse por cada pessoa e conversando pra saber como ela está (Provérbios 27:23), dando ajuda espiritual, emocional e prática (Provérbios 12:25; Isaías 32:2; Tiago 2:15-17), ajudando cada publicador a dar o seu melhor no ministério e trabalhando com ele com regularidade, e treinando irmãos batizados pra receberem mais responsabilidades (1 Timóteo 3:1).
 ```
 
+@CAIXA Dicas para o superintendente de grupo
+As reuniões para o serviço de campo devem ser breves, de no máximo sete minutos, para que os publicadores possam sair logo para o campo. Trabalhe com cada publicador do seu grupo, incluindo aqueles que não conseguem apoiar as saídas de campo regularmente. Talvez seja possível trabalhar com esses irmãos em um dia ou horário diferente. Sempre faça visitas de pastoreio para todos os irmãos do seu grupo. Essas visitas podem ser feitas nas casas dos publicadores, no Salão do Reino ou em outro lugar apropriado. Se necessário, elas também podem ser feitas por telefone ou carta. Treine os irmãos para alcançarem todo o potencial que eles têm e se qualificarem para cuidar de mais responsabilidades na congregação. Esteja presente na saída de campo e fique atento aos irmãos do seu grupo mesmo quando a reunião para o serviço de campo é feita junto com outros grupos.
+
 **5. Que desafios alguns superintendentes de grupo enfrentam?**
 
 ```

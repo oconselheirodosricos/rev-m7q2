@@ -247,6 +247,9 @@ Complementar 3: O fecho do parágrafo 19 é gratidão, e é justa: as ferramenta
 Pra Laurinha: Procurar no livro certo.
 ```
 
+@CAIXA Você consegue identificar os princípios?
+O livro Princípios Bíblicos para a Vida Cristã contém muitos princípios sobre vários assuntos. O que acha de considerar alguns dos seguintes assuntos em sua Adoração em Família para ver se você consegue identificar os princípios bíblicos? Amizade com o mundo; bebidas alcoólicas; dinheiro; ecumenismo; entretenimento; honestidade; idolatria; mentir; neutralidade; perdão; práticas erradas; pornografia; resolver problemas com outros.
+
 ## TENHA CERTEZA DE QUE SUA CONSCIÊNCIA ESTEJA BEM TREINADA
 
 O que aprendemos nesse trecho: o fecho amarra os dois presentes, liberdade de escolha e consciência, e mostra que usá-los bem depende do espírito santo e dos princípios, pra a gente ver o poder da Palavra de Deus na própria vida.

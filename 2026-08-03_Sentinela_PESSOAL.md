@@ -163,6 +163,9 @@ Complementar 4: Romanos 14:4 é o texto que fecha a discussão: “Quem é você
 Pra Laurinha: Diferente não é errado.
 ```
 
+@CAIXA Quando você não concorda
+Se você não concorda com a decisão de um irmão ou de uma irmã, tente pensar nas perguntas abaixo. Assim, você vai se poupar de preocupações desnecessárias (Gálatas 6:5). Será que a Bíblia realmente condena essa decisão? Será que a decisão dele é diferente da minha simplesmente porque nossa criação também foi diferente? Essa decisão vai realmente causar problemas para a pessoa, ou eu estou exagerando e imaginando coisas que talvez nem aconteçam? Quais podem ser as vantagens dessa decisão? Será que é "um passo em falso" ou é apenas um passo diferente do que eu daria? Se for um passo em falso, será que eu tenho as qualificações bíblicas necessárias para ajudar?
+
 **14. Ao tomar decisões pessoais, o que você pode fazer para manter a paz na congregação? (1 Coríntios 8:12, 13)**
 
 ```

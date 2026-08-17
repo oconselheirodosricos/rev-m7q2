@@ -255,9 +255,8 @@ Complementar 3: A décima sugestão é a mais delicada e a mais esquecida: usar 
 Pra Laurinha: Guardar o celular na reunião.
 ```
 
-## Dicas para escutar com mais atenção
-
-Quatro irmãos com décadas de serviço contaram o que os ajuda a prestar atenção nas reuniões: Suefawn, batizada em 1986, procura sentar nas fileiras da frente do salão, para poder se concentrar no orador e nos vídeos; David, batizado em 1983, pede a Jeová várias vezes que o ajude a prestar atenção e tem sempre em mente que a adoração dele envolve não só estar nas reuniões, mas também se concentrar e participar nelas; Nicolas, batizado em 1982, tem o alvo de agradecer cada pessoa que faz uma parte na reunião, citando um exemplo, um ponto ou uma ilustração de que gostou; e Augustin, batizado em 1988, sempre diz a si mesmo que, se o escravo fiel decidiu falar novamente de um assunto, é porque é exatamente disso que precisamos naquele momento.
+@CAIXA Dicas para escutar com mais atenção
+Perguntamos o seguinte para alguns irmãos que já servem a Jeová há bastante tempo: "O que te ajuda a prestar atenção nas reuniões?" Veja algumas dicas que eles deram. Suefawn, batizada em 1986: "Procure sentar nas fileiras da frente do salão para poder se concentrar no orador e nos vídeos." David, batizado em 1983: "Eu peço a Jeová várias vezes que me ajude a prestar atenção. E tenho sempre em mente que minha adoração envolve não só estar nas reuniões, mas também me concentrar e participar nelas." Nicolas, batizado em 1982: "Tenha o alvo de agradecer cada pessoa que faz uma parte na reunião, citando um exemplo, um ponto ou uma ilustração que você gostou." Augustin, batizado em 1988: "Eu sempre digo a mim mesmo que, se o escravo fiel decidiu falar novamente de um assunto, é porque é exatamente disso que precisamos naquele momento."
 
 ## CONTINUE ESCUTANDO A JEOVÁ
 

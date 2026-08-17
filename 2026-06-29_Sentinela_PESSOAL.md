@@ -57,6 +57,11 @@ Complementar 3: Há uma proteção embutida nessa amizade. Quando marido e espos
 Pra Laurinha: Pra ficarem bem juntos.
 ```
 
+@CAIXA Que lugar meu marido ou esposa tem na minha vida?
+1. Jeová. Nossa amizade com Jeová é a coisa mais importante na nossa vida (Mateus 6:33; Marcos 12:30). Nós nunca vamos desagradar a Jeová só para agradar nosso marido ou esposa (Atos 5:29; veja também Gênesis 2:16, 17; 3:6).
+2. Nosso marido ou esposa. Nós somos "uma só carne" com a pessoa com quem casamos. Nós cuidamos dessa pessoa tão bem quanto cuidamos de nós mesmos (Gênesis 2:24; Efésios 5:28, 29, 33).
+3. Outras pessoas e responsabilidades. Nós queremos cuidar dos nossos pais e parentes, e também dos irmãos e de outras responsabilidades na congregação. Mas tirando Jeová, nada nem ninguém é mais importante na nossa vida do que o bem-estar e a felicidade do nosso marido ou esposa (1 Timóteo 5:8).
+
 ---
 
 ## COMO ESCOLHER UM AMIGO PARA A VIDA TODA
@@ -214,6 +219,9 @@ Complementar 3: O fechamento amarra a semana: tudo passa por "buscar a ajuda de 
 
 Pra Laurinha: Fazer do jeito de Jeová.
 ```
+
+@CAIXA Ajudas para fortalecer a amizade no casamento
+A organização de Jeová fornece várias ajudas para os casais fortalecerem sua amizade e até recuperarem essa amizade se ela estiver abalada. Você já usou algumas das ajudas abaixo? A brochura "Você Pode Ter uma Família Feliz!"; a série de vídeos "Como Ser Feliz no Casamento?"; a série de artigos "Ajuda para a Família"; a seção "Casamento e Família" do site jw.org.
 
 ## Imagens
 

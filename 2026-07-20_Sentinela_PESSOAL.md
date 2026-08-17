@@ -89,6 +89,9 @@ Complementar 2: O segundo ponto, analisar a própria motivação (Salmo 26:2, "e
 Pra Laurinha: Orar e pensar bem.
 ```
 
+@CAIXA Princípios bíblicos que podem ajudar você
+Por que eu quero buscar ensino adicional? (Mateus 6:33; 1 Timóteo 6:8-10) Quanto tempo vou gastar toda semana assistindo às aulas e fazendo os trabalhos que os professores pedem? (Filipenses 1:10) Quantos anos vou levar para concluir o curso? (Efésios 5:15-17) Onde eu vou morar? (1 Coríntios 15:33) Quanto eu vou gastar com meus estudos? (Lucas 14:28) Será que com esse curso eu vou encontrar um trabalho que me ajude a conseguir o sustento e alcançar meus alvos espirituais? (Eclesiastes 12:13)
+
 ## ANALISE SUA MOTIVAÇÃO
 
 O que aprendemos nesse trecho: antes de olhar o curso, é preciso olhar o coração; a motivação certa é se sustentar pra servir melhor a Jeová, não ficar rico nem ter destaque.

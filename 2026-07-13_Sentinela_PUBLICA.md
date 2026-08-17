@@ -172,6 +172,9 @@ Como aplicar na nossa vida: Repare no formato: pergunta mais texto, não lista d
 Resposta: (a) O livro Princípios Bíblicos para a Vida Cristã, que traz, debaixo de cada assunto, perguntas junto com textos bíblicos que ajudam a identificar princípios. (b) No assunto "Celebrações e feriados", o subtítulo "Celebrações em que os cristãos não participam" traz a pergunta sobre celebrações ligadas à religião falsa, com 1 Coríntios 10:21; 2 Coríntios 6:14-18 e Efésios 5:10, 11. E o subtítulo "Celebrações nacionalistas" ajuda a decidir sobre feriados políticos, comemorações de guerras e cerimônias que idolatram pessoas.
 ```
 
+@CAIXA Você consegue identificar os princípios?
+O livro Princípios Bíblicos para a Vida Cristã contém muitos princípios sobre vários assuntos. O que acha de considerar alguns dos seguintes assuntos em sua Adoração em Família para ver se você consegue identificar os princípios bíblicos? Amizade com o mundo; bebidas alcoólicas; dinheiro; ecumenismo; entretenimento; honestidade; idolatria; mentir; neutralidade; perdão; práticas erradas; pornografia; resolver problemas com outros.
+
 ## TENHA CERTEZA DE QUE SUA CONSCIÊNCIA ESTEJA BEM TREINADA
 
 O que aprendemos nesse trecho: o fecho amarra os dois presentes, liberdade de escolha e consciência, e mostra que usá-los bem depende do espírito santo e dos princípios, pra a gente ver o poder da Palavra de Deus na própria vida.
