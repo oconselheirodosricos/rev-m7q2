@@ -102,8 +102,8 @@ Separador entre células = ` · ` (ponto médio). `[DECIDIDO 21/07 — §10-E]` 
       Resposta: <a resposta NÃO repete o parágrafo do livro; traz detalhe, contraste ou consequência prática que faça o irmão pensar — nas duas versões>
       Complementar 1: <só renderiza no PESSOAL>
       Complementar 2: <opcional, só PESSOAL>
-      Pra Laurinha: <≤6 palavras, regra §4, só PESSOAL — mesma exceção que abre §2.4 pra esta parte>
       ```
+      **`[DECISÃO NOVA 19/08]` SEM `Pra Laurinha` aqui — nem em nenhuma outra parte do VM.** Ver §2.4.
       Um `@HQ` novo (ou `@HAPLICAR`/`@HISTORIA` seguinte) fecha o bloco da pergunta anterior. Depois de todas as perguntas da história, `@HAPLICAR` fecha com os 3 sub-rótulos fixos **`Na família:` / `Na congregação:` / `No campo:`** (nas duas versões, sem mudança).
     - **`[FECHADO 17/08 — 3ª correção]` A pendência de 14/08 sobre dois formatos de DSL coexistindo (`@HQ` estruturado vs. `***pergunta?***`/`Resposta:` solto no corpo) está ENCERRADA.** As 6 semanas `wcg` de julho/agosto (Enoque 27jul, Noé 3ago, Sara 10ago, Abraão-guerra 17ago, Abraão-desafio 24ago, Rebeca 31ago) foram conferidas ao vivo no arquivo e padronizadas em `@HQ`, único formato daqui pra frente para publicação com pergunta oficial (o solto era resquício de edições concorrentes durante o pico de sessões paralelas de 14/08, nunca uma decisão deliberada). Checks: `pytest tests/test_parte8_perguntas.py` = 43 passed nas 6 semanas × 2 versões.
     - **`[NOVO 17/08 — 3ª correção]` Imagens da história usam `@HIMG`, mesmo padrão de citação de fonte que `@IMAGEM` da Parte 1 (URL real do CDN, alt da fonte, legenda, comentário só depois de a imagem ter sido vista).** Sintaxe: `@HIMG <letra A-E da fonte> | <URL> | <alt da fonte> | <legenda>`, seguida (linha solta, sem tag) do comentário. `[CÓDIGO — build.py::parse_vm, tag @HIMG; renderiza via vm_historia_image_html]`. Cobrir TODAS as imagens que a fonte trouxer pra aquele capítulo, com a letra que a própria fonte usa pra ligar a imagem à pergunta/item correspondente; nunca pular uma por ela não ter alt (fonte às vezes publica `alt=""`, nesse caso o comentário descreve a imagem por conta própria, dito explicitamente no comentário). Posição: depois do último `@HQ` da história, antes de `@HREFLEXAO`.
@@ -111,8 +111,9 @@ Separador entre células = ` · ` (ponto médio). `[DECIDIDO 21/07 — §10-E]` 
     - **Trechos SEM pergunta oficial na fonte** (ex.: introdução de seção, linha do tempo, carta do Corpo Governante): só aí o narrativo puro é permitido — sem nenhum `@HQ` nessa história — com o corpo (texto livre logo após `@HISTORIA`) fechando em prosa com **`Sobre Jeová:`** + **`Lição prática:`**, depois `@HCOMPL`×2 (só PESSOAL, aplicado à história toda) e `@HAPLICAR` com os mesmos 3 sub-rótulos (nas duas versões). Sem `@HLAURINHA` de história aqui (não há pergunta específica pra ancorar a frase da criança) — únicos `@HCOMPL`/`@HLAURINHA` de história (sem `@HQ` antes) continuam sendo os tags antigos, mantidos por compatibilidade com semanas `lfb` já aprovadas que usam o padrão inline antigo (não retrabalhadas por este documento).
   - Regra geral: `@HQ` só existe quando a FONTE tem pergunta oficial ali (nunca decidir pelo nome/tipo do livro). Comentário do `@HISTORIA` (corpo, antes do primeiro `@HQ`) é a introdução/o "fio" que liga a história ao tema da semana, original, NÃO reproduz o texto do livro. Confirmar cada história/capítulo no jw.org, incluindo a lista exata de perguntas de "Analise mais a fundo" quando houver — a contagem varia por capítulo (a maioria dos capítulos do `wcg` usados em agosto/2026 tem 4; o capítulo "Ele enfrentou seu maior desafio" tem só 1).
 
-### 2.4 VM não tem componente da Laurinha, EXCETO Parte 8 com pergunta oficial `[PROMPT]` `[CORRIGIDO 14/08]`
-A Laurinha não vai na reunião VM: sem "Pra Laurinha" nas Partes 1 a 7. **Única exceção:** Parte 8, quando a história/capítulo tem pergunta oficial da fonte (§2.3), leva `@HLAURINHA` em PESSOAL, no mesmo padrão de resposta da Sentinela. Trechos narrativos da Parte 8 (sem pergunta oficial) continuam sem Laurinha.
+### 2.4 VM NUNCA tem componente da Laurinha, SEM EXCEÇÃO `[PROMPT][REGRA PERMANENTE][DECISÃO NOVA 19/08 — revoga a exceção de 14/08]`
+**Motivo, nas palavras do João:** a Laurinha não vai na reunião VM (é a reunião de semana, ela já está dormindo). "Pra Laurinha" é um recurso exclusivo da Sentinela (reunião de fim de semana, quando ela participa). A versão anterior desta regra (14/08) abria uma exceção pra Parte 8 quando a história tinha pergunta oficial (`@HLAURINHA`/`Pra Laurinha:` em PESSOAL) — **essa exceção está REVOGADA.** Zero "Pra Laurinha" em qualquer parte do VM, incluindo a Parte 8 (`@HQ`), sem exceção nenhuma.
+Auditor: `web/auditor.py` reprova qualquer arquivo `*_VM_*.md` que contenha a string "Pra Laurinha" (fixture negativo em `tests/fixtures/regressao_pra_laurinha_vm/`).
 
 ---
 
@@ -208,7 +209,10 @@ Comentando a imagem: <parágrafo longo>
 
 **Invariantes (iguais nas duas):** RS1, literalidade TNM, os 5 campos de aplicação, imagens comentadas, Parte 7 Q&A, lead-ins de seção, rodapé não-oficial.
 
-**Pra Laurinha — spec `[DECIDIDO §10-B]`:** frase única, registro de criança, **≤6 palavras**, distila a lição daquela pergunta específica; sem aspas; responde AQUELA pergunta (nunca a lição da vizinha). João descarta o que não serve.
+**Pra Laurinha — spec `[DECIDIDO §10-B]` `[REFORÇADO 19/08]`:** frase única, registro de criança, **≤6 palavras**, distila a lição daquela pergunta específica; sem aspas; responde AQUELA pergunta (nunca a lição da vizinha). João descarta o que não serve.
+- **`[REGRA PERMANENTE 19/08]` OBRIGATÓRIO só na Sentinela, em TODA pergunta numerada da PESSOAL, sem exceção** (a exceção que existia pra VM/Parte 8 foi revogada, ver §2.4). Falta em qualquer pergunta = defeito.
+- **`[REGRA PERMANENTE 19/08]` 100% adequado à idade da Laurinha, 5 anos.** Vocabulário concreto (evitar abstrato: "confiar", "arrependimento", "santificação" sem uma imagem/ação que uma criança de 5 anos entenda), sem trocadilho nem ironia, sem palavra que precise de explicação extra. Teste prático: dá pra falar essa frase pra uma criança de 5 anos, sem editar, e ela entende sozinha?
+Auditor: `web/auditor.py` reprova pergunta numerada da Sentinela PESSOAL sem "Pra Laurinha:" (fixture negativo em `tests/fixtures/regressao_pra_laurinha_sentinela/`).
 
 ---
 
@@ -255,7 +259,7 @@ Rodam no `build.py main()` antes de renderizar; item que falha não publica (os 
 
 ## §8. PACOTE DE REVISÃO `[MEM — vence o prompt]`
 
-- Local: **`Documents/JW/REVISAO/ (local)`**, só **`md/`** e **`html/`**. **Sem PNG, sem zip, nunca no Desktop.**
+- Local: **`/Users/joaobarretorios/Documents/JW/REVISAO/`**, só **`md/`** e **`html/`**. **Sem PNG, sem zip, nunca no Desktop.**
 - Fonte: memória `jw-prep-pacote-revisao-local` (21/07/2026). `[DECIDIDO 21/07 — §10-F]` O prompt-mestre foi corrigido pra bater com isso (antes dizia `~/Desktop/REVISAO/` + `png/`).
 
 ---
