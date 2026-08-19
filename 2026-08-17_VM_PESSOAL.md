@@ -22,6 +22,8 @@ A leitura de Jeremias 26-28 é um teste de ouvido: quem realmente fala por Jeov�
 Ideias pra levar a Jeová (não é oração pronta, é direção): agradecer porque ele avisa antes de agir e ainda espera que a gente mude (Jeremias 26:3); pedir discernimento pra reconhecer a voz dele no meio de tanta voz que promete o que agrada (Jeremias 27:14); pedir coragem pra não podar a mensagem por medo de reação (Jeremias 26:2); e pedir pra ser, na congregação, o apoio que Aicão foi pra Jeremias (Jeremias 26:24). Cada um pode meditar: eu escuto o que Jeová diz ou o que eu queria que ele dissesse?
 @FIM-ABERTURA
 
+@CANTICO 77 | Luz num mundo sombrio | abertura, com oração e comentários iniciais, 1 min
+
 @SECAO TESOUROS DA PALAVRA DE DEUS
 
 @PARTE 1. Não seja enganado por falsos profetas | 10 min | discurso
@@ -33,10 +35,10 @@ A parte trata do perigo mais silencioso da leitura desta semana: acreditar na pe
 @COMPLEMENTAR Um detalhe fácil de passar batido: Jeremias 27:14 mostra que os falsos profetas falavam para o povo, e Jeremias 27:16 mostra que a mesma conversa circulava entre os sacerdotes. Ou seja, a informação errada tinha entrado por dentro, não só por fora. Isso é um alerta honesto: o cuidado com a fonte não é só contra o inimigo declarado, é também contra o boato que corre entre pessoas boas.
 @COMPLEMENTAR Vale notar o que Jeová destaca em Jeremias 27:5, logo antes de falar dos falsos profetas: “Fui eu que fiz a terra, a humanidade e os animais que há na face da terra, com o meu grande poder e o meu braço estendido”. Ele estabelece Quem manda antes de dizer o que vai acontecer. A ordem importa: quando eu tenho claro Quem é o Criador, fica muito mais difícil alguém me convencer de que a história está fora de controle.
 @COMPLEMENTAR Ponte com hoje: o que mais engana agora não é uma pessoa dizendo abertamente uma mentira, é material verdadeiro reempacotado em lugar errado, com comentário estranho colado do lado. O conteúdo parece o nosso, o tom parece o nosso, e no meio entra a instrução que não é do povo de Jeová. Por isso o teste não é só o que está sendo dito, é onde está sendo dito e por quem.
-@IMAGEM https://cms-imgp.jw-cdn.org/img/p/202026247/univ/art/202026247_univ_cnt_1_lg.jpg | Um irmão numa refeição com outros irmãos mostra no seu tablet um vídeo do jw.org que está em outro site | Numa refeição entre irmãos, um deles mostra no tablet um vídeo do jw.org que está hospedado em outro site
+@IMAGEM https://cms-imgp.jw-cdn.org/img/p/202026247/univ/art/202026247_univ_cnt_1_lg.jpg | Um irmão em uma refeição com outros irmãos mostra no seu tablet um vídeo do jw.org que está em outro site. |
 Comentando a imagem: a cena é doméstica e simpática, e é justamente aí que mora o alerta. Estamos numa cozinha ampla e clara, de piso de madeira, com duas luminárias douradas sobre a bancada. Ao fundo, à esquerda, quatro irmãos estão sentados à mesa comendo, com pão, salada e pratos servidos; duas irmãs aparecem de costas, em poltronas amarelas, conversando. À direita, dois irmãos de pé conversam separados, um de suéter azul-marinho e óculos, com um copo na mão, e outro de suéter laranja. No primeiro plano, um irmão de camisa azul e colete de tricô cinza estende o tablet na direção de quem olha a foto, com a outra mão aberta num gesto de quem pergunta, as sobrancelhas erguidas e a boca entreaberta. É a cara de quem está dizendo "olha só o que me mandaram". Na tela do tablet dá pra ver o essencial: no alto, a logomarca vermelha de um site de vídeos qualquer, e não o jw.org; no centro, um vídeo com um irmão de terno e gravata falando, do jeito que a gente conhece; embaixo, uma lista de comentários de estranhos; e na lateral, uma coluna de outros vídeos sugeridos, que ninguém sabe de onde vêm. Ligada ao Tesouros 1 e ao terceiro ponto da parte, a imagem mostra exatamente o problema de discernir se uma instrução vem da organização de Jeová ou dos inimigos dele: o vídeo é nosso, mas o lugar não é, e o que veio junto com ele não passou por ninguém. A lição prática é que a fonte faz parte da mensagem. Se eu preciso mostrar um vídeo do jw.org a um irmão, o caminho é mostrar no jw.org. E, quando algo chegar por outro caminho, o gesto mais amoroso não é repassar rápido pro grupo, é conferir antes de compartilhar.
 
-@PARTE 2. Joias Espirituais | 10 min
+@PARTE 2. Joias espirituais | 10 min
 @FONTE Jeremias 26:20-23
 @COMENTARIO
 A pergunta fixa da semana é que lição Jeremias pode ter aprendido do que aconteceu com Urias, também chamado de Urijá (Jeremias 26:20-23). O relato é curto e duro. Urias era profeta de Jeová e falava a mesma coisa que Jeremias, “com palavras semelhantes às de Jeremias” (Jeremias 26:20). Quando o rei Jeoiaquim decidiu matá-lo, Urias “ficou com medo e fugiu para o Egito” (Jeremias 26:21). O rei mandou buscá-lo, e o fim está registrado sem rodeios: “Eles trouxeram Urias do Egito e o levaram ao rei Jeoiaquim, que o matou à espada” (Jeremias 26:23). A lição que Jeremias pôde tirar aparece no que ele fez depois: continuou avisando os judeus sobre a destruição que vinha, inclusive dentro da área do templo. Ele não perdeu a coragem, e Jeová não o abandonou. É bem provável que Deus tenha usado Aicão, filho de Safã, para proteger a vida dele, porque o capítulo fecha assim: “Mas Aicão, filho de Safã, apoiou Jeremias, e ele não foi entregue nas mãos do povo para ser morto” (Jeremias 26:24). Fugir do medo não foi o que salvou; ficar no lugar onde Jeová o tinha colocado, sim.
@@ -92,6 +94,8 @@ A cena é um estudo bíblico na lição 20 de [*Seja Feliz para Sempre!*](https:
 
 @SECAO NOSSA VIDA CRISTÃ
 
+@CANTICO 16 | Jeová escolheu nosso Rei | antes da Parte 7, transição para Nossa Vida Cristã
+
 @PARTE 7. Necessidades locais | 15 min
 @COMENTARIO
 Esta parte é definida pela própria congregação (os anciãos, com base na orientação da filial). O conteúdo varia de lugar pra lugar e NÃO é publicado no jw.org, então não há o que preparar aqui a partir do material oficial. Se esta parte for designada a você, o melhor é confirmar com os anciãos qual é o assunto e a fonte que eles vão indicar. Onde não há material publicado, a regra do projeto é não inventar conteúdo.
@@ -126,3 +130,5 @@ Pense no quadro completo: ***O que esse relato me ensina sobre Jeová?*** Que el
 @APRENDAMAIS
 Vídeo "Imite a sua fé: Abraão, parte 1" (10:43) e o artigo "Abraão, um homem corajoso" (w12 1/1 6-7), pra quem quiser se aprofundar além desta reunião.
 @HAPLICAR Na família: contar essa história como ela é, uma operação de resgate noturna com um exército improvável, e depois perguntar aos filhos o que Abraão poderia ter alegado pra não ir; ajuda a criança a perceber como as desculpas são fáceis de montar. Na congregação: lembrar que a coragem cristã hoje é a guerra espiritual que Jesus ensinou (Mateus 26:52), e que ela aparece em coisas nada espetaculares, como ir buscar um irmão que se afastou. No campo: encarar o território difícil do jeito que Abraão encarou os quatro reis, olhando pra Quem mandou e não pro tamanho do problema.
+
+@CANTICO 71 | Marchamos com Jeová | encerramento, com oração e comentários finais, 3 min
