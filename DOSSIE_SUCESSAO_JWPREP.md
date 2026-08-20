@@ -519,11 +519,19 @@ Porque o único a decidir encerrar uma sessão de trabalho do João é o João.
 - A rotação automática está funcionando, depois das três ocorrências descritas em 4.3.
 - Corpus atual: 12 semanas de Sentinela e 11 de Vida e Ministério, nas duas versões,
   71 arquivos markdown de conteúdo.
-- Suíte de testes rodada hoje: **414 passaram, 130 puladas, 0 falharam.** As puladas
-  são legítimas (semana sem arquivo gerado, tempo de parte ausente na fonte, fonte sem
-  imagem comentada), e falha de acesso à fonte nunca é pulada, é reprovação.
+- Suíte de testes rodada hoje às 11h35: **426 passaram, 166 puladas, 0 falharam.** As
+  puladas são legítimas (semana sem arquivo gerado, tempo de parte ausente na fonte,
+  fonte sem imagem comentada), e falha de acesso à fonte nunca é pulada, é reprovação.
+  Esse número é móvel: duas horas antes eram 414 e 130, porque outra sessão de
+  trabalho acrescentou testes no meio do dia. Trate contagem de teste como carimbo de
+  data, nunca como fato estável.
 - O ciclo corrente (17 a 23, 24 a 30 e 31 de agosto) passou pelo auditor com zero item
-  reprovado, e o relatório correspondente está publicado no repositório de revisão.
+  reprovado, e o relatório está publicado no repositório de revisão.
+- **Este corpus se move durante o dia.** Hoje mesmo, uma sessão de trabalho concorrente
+  refinou os 6 arquivos de Vida e Ministério do ciclo corrente e publicou por cima. Ao
+  auditar, confira sempre a data do que você está lendo contra a data do último
+  relatório do auditor: se o conteúdo mudou depois da auditoria, a auditoria não cobre
+  a versão que está na sua frente.
 
 **Pronto e não publicado**
 
