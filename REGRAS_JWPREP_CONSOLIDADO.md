@@ -314,6 +314,26 @@ Uma auditoria pedida pelo João em 14/08/2026 achou 4 defeitos reais no material
 ### 11.5 Regra geral dos 4 defeitos — vazio nunca é silencioso
 Nenhuma extração da fonte (recap, pergunta oficial, imagem, transcrição) pode retornar vazia/ausente em silêncio. Vazio ou ausente vira erro visível (`raise`) e falha o build ou a geração. É o padrão comum aos defeitos 1, 2 e 4: todos nasceram de um código/autor que seguiu adiante com dado ausente em vez de parar e avisar.
 
+### 11.6 DEFEITO 5 — Comparação contra a fonte em inglês gera falso positivo `[REGRA PERMANENTE 19/08]`
+**O que aconteceu:** na auditoria do VM 17-23 ago (19/08/2026), um auditor externo (sem acesso à apostila em PT, que renderiza por JavaScript no WOL) apontou o título de 2 cânticos ("Jeová escolheu nosso Rei", "Marchamos com Jeová") como errados, comparando contra os títulos oficiais em INGLÊS do mesmo hinário ("Praise Jah for His Son, the Anointed", "We Are Jehovah's Army!"). Confirmado ao vivo: é o MESMO cântico nas duas línguas (mesmo `data-page-id`, mesma referência bíblica, letra temática igual) — nome de cântico não é tradução literal entre idiomas, é título próprio de cada edição do hinário. Não era defeito nosso.
+**Regra permanente:** toda comparação de conteúdo deste projeto usa a fonte em **PORTUGUÊS** — nunca a versão em inglês do mesmo material, nem como atalho, nem quando a página em PT for mais difícil de buscar. Vale pra título de cântico, título de vídeo, nome de seção, ou qualquer outro campo que possa variar por idioma mesmo referenciando o mesmo conteúdo oficial.
+**Trava automática:** `tests/test_fonte_pt_literal.py::test_canticos_vm_titulo_bate_com_fonte_pt` — busca ao vivo a página PT de cada `@CANTICO` (nunca a EN) e reprova se o título não bater. Rodada em toda `web/build.py` (`trava_testes_de_fonte_pt_literal`), aborta o build se reprovar. Semana sem nenhum `@CANTICO` na saída ainda é `skip` (backfill catalogado, não é o mesmo defeito que título errado) — ver §11.7. Fixture negativo: `tests/fixtures/regressao_cantico_titulo_en/`.
+
+### 11.7 Achado colateral (19/08/2026) — alt de imagem parafraseado em 10 de 11 semanas VM `[PARCIALMENTE CORRIGIDO 20/08]`
+Na mesma auditoria, ao verificar o `alt` da imagem da Parte 1 de 17-23 ago (confirmado literal e correto), uma varredura em TODAS as semanas mostrou que as outras 10 (todo VM já publicado, exceto 17-23) têm o campo `alt` de `@IMAGEM` **parafraseado/embelezado** em vez de literal à fonte — mesma classe do Defeito 1 (§11.1), só que num campo (`alt` da Parte 1) que a varredura de 17/08 não cobriu. **Atualização 20/08:** corrigido em 2026-08-24 e 2026-08-31 (VM e Sentinela, PESSOAL e PUBLICA), incluindo achados extras fora do escopo original (imagem da Parte 7 de 08-24, também parafraseada). **Ainda pendente**: semanas passadas (15 jun a 10 ago) — Fase 5 do PEA de 20/08, não executada por escolha explícita do João ("semana passada não bloqueia nada"). Trava automática (`test_imagem_vm_alt_literal_pt`/`test_imagem_sentinela_alt_legenda_literal_pt`) só vale pra 2026-08-17 em diante (`DATA_CORTE`), pelo mesmo motivo do §11.6: travar semana passada não-corrigida quebraria o build.
+
+### 11.8 Conteúdo novo, obrigatório desde 20/08/2026 — cântico, OBJETIVO, nota de rodapé, referência designada `[REGRA PERMANENTE]`
+Achados da varredura noturna de 20/08/2026 (Sentinela 17-23 + semanas 24-30/31 ago), todos com trava automática em `tests/test_fonte_pt_literal.py` (VM) e/ou checagem no `web/auditor.py` (Sentinela — número do cântico da Sentinela só existe no PDF impresso da revista, não é buscável ao vivo; o auditor confia no `@CANTICO` já lançado e só reconfere o TÍTULO contra a página PT do cântico):
+- **Cântico do VM** (`@CANTICO`, 3 por semana: abertura/antes da Nossa Vida Cristã/encerramento) e **cântico da Sentinela** (`@CANTICO` único, ligado ao `@OBJETIVO` — os dois só existem no PDF oficial PT da revista, nunca na página web do artigo). Número resolvido via PDF (`b.jw-cdn.org/.../w_T_<AAAAMM>.pdf`); título sempre reconferido ao vivo contra `jw.org/finder?wtlocale=T&docid=1102016800+N` (funciona pra qualquer número, sem precisar de link estruturado — achado 20/08).
+- **OBJETIVO** da Sentinela: texto literal do PDF, campo `@OBJETIVO`, logo abaixo do `@CANTICO`.
+- **Nota de rodapé "DESCRIÇÃO DA IMAGEM"**: quando a fonte liga uma nota de rodapé a uma imagem da Sentinela (`<a class="footnoteLink">`), o texto entra no 5º campo do `@IMG` correspondente. Campo fica vazio quando a fonte não tem nota pra aquela imagem — nunca preenchido por conta própria.
+- **Referência designada no `@FONTE`**: toda publicação que a apostila cita pra uma parte do VM (código abreviado tipo `jr 122 § 18`, `th lição 5`, `w24.07 12 §§ 13-15`, `it "Ramá" n.º 1 § 3`) entra por extenso no `@FONTE`, igual ao padrão já usado pra Bíblia+Sentinela na Parte 1. Resolver o nome da publicação buscando ao vivo `jw.org/finder?wtlocale=T&pub=<código>` (H1 da página).
+- **`[ATUALIZAÇÃO 20/08, 2ª rodada]` Cântico da Sentinela é DUPLO, não único**: a 1ª correção (mesma noite) só capturou o cântico de ABERTURA; a fonte fecha o capítulo com um 2º cântico, impresso na ÚLTIMA página do capítulo (depois do quadro "COMO VOCÊ RESPONDERIA?"/recap), achado real em 2026-08-17 (faltava o 124 "Sempre leais"). `@CANTICO` na Sentinela agora é posicional igual ao VM: a 1ª ocorrência no arquivo = abertura (liga com `@OBJETIVO`), a 2ª = encerramento (`doc["cantico_encerramento"]` em `parse_doc`). Trava: `test_fonte_pt_literal.py::_checar_cantico_sentinela` confere os dois; fixture negativo dedicado em `tests/fixtures/regressao_cantico_encerramento_ausente/`.
+- **`[ACHADO 20/08]` Nota de rodapé "DESCRIÇÃO DA IMAGEM" não é redundante com o alt**: o alt descreve a CENA visualmente; a nota de rodapé explica o CONTEXTO/desfecho da situação retratada (ex.: qual era o desacordo e que a unidade se manteve) — os dois são campos distintos, nenhum substitui o outro. Varredura ao vivo (20/08, todas as 12 semanas de Sentinela já geradas, via `imagens_por_paragrafo`, sem precisar do PDF — a nota já aparece na página web do artigo): **3 semanas passadas têm nota de rodapé não capturada**, achado catalogado, NÃO corrigido nesta rodada (fora do escopo de hoje, mesma prioridade de sempre — semana atual em diante primeiro): 2026-06-22 (parágrafo 8), 2026-07-27 (parágrafo 18), 2026-08-10 (parágrafo 16). As semanas 2026-08-24 e 2026-08-31 foram conferidas e **não têm** nenhuma nota de rodapé de imagem na fonte (N/A genuíno, não falta).
+
+### 11.9 Reticências espaçadas (". . .") dentro de título oficial NÃO violam a regra de zero reticências `[ESCLARECIMENTO 20/08]`
+Achado ao corrigir 2026-08-31: o título oficial da Parte 1 do VM é `"Farei . . . um novo pacto"` — a reticência espaçada marca uma omissão real dentro da citação de Jeremias 31:31 ("...com a casa de Israel e com a casa de Judá..."), é convenção tipográfica do próprio jw.org pra título truncado (mesmo padrão já usado no título do quadro de recap da Sentinela, "COMO VOCÊ PODE MANTER A AMIZADE QUANDO . . ."). A regra de "zero reticências tipográficas" (RS3) mira a reticência PREGUIÇOSA usada por nós pra evitar terminar uma frase (`...` sem espaço, ou `…`) — nunca a reticência espaçada `". . ."` que é parte literal de um título oficial da fonte. `grep -n "\.\.\.\|…"` (sem espaço entre os pontos) já distingue os dois casos corretamente e não precisa mudar.
+
 ## §12. GOVERNANÇA DE SESSÕES CONCORRENTES E SUBAGENTES — PROIBIÇÃO PERMANENTE
 
 ### 12.1 Nenhum agente encerra processo `claude` — nunca
@@ -323,6 +343,150 @@ Nenhuma extração da fonte (recap, pergunta oficial, imagem, transcrição) pod
 
 ### 12.2 Mandato de subagente é a tarefa dada, não a missão inteira
 Reforço do achado já registrado no `ESTADO.md` de 14/08 (o incidente do repo `rev-h3k9`, criado sem autorização por um subagente despachado só pra verificar um defeito) e do incidente de 12.1: um subagente/fork que termina a tarefa que recebeu **para**, reporta, e não inventa trabalho adicional por conta própria — nem "adiantar" a próxima etapa, nem "resolver" um problema que percebeu no caminho, nem tocar `git`/`gh`/deploy, nem editar `ESTADO.md` ou este documento, a menos que a tarefa dada autorize explicitamente. Escopo extra observado durante a execução vira ITEM NO RELATÓRIO FINAL do subagente pro orquestrador decidir, nunca ação autônoma do próprio subagente.
+
+## §13. ARMADILHA PERMANENTE — ROTAÇÃO DA LANDING FICA PRESA NA SEMANA ERRADA (3ª OCORRÊNCIA, 20/08/2026)
+
+### 13.1 As três ocorrências
+1. **6/08/2026**: site preso em "27 de julho a 2 de agosto" por 4 dias, achado que motivou a criação de `rotacionar.sh` (cron no VPS) + `web/rotacao/verificar.py` (alarme no Mac).
+2. **19/08/2026** (madrugada, achado retroativo): o alarme do Mac (`com.joaorios.jwprep.rotacao`, launchd) registrou `[ROTAÇÃO DIVERGENTE]` — mas ninguém tratou na hora.
+3. **20/08/2026**: site preso em "27 de julho a 2 de agosto" DE NOVO — mesmo com `rotacionar.sh` rodando pontualmente de hora em hora no VPS (log confirma execução ininterrupta desde 04:07) e com o launchd do Mac carregado. "Carregado" não é "funcionando": os dois estavam rodando, e mesmo assim a divergência ficou 15+ horas sem correção (18:07 de 19/08 até a investigação de 20/08).
+
+### 13.2 Causa raiz, provada (não presumida)
+**Não é nenhuma das hipóteses (a) Mac dormindo, (c) fuso errado, (d)-literal "deploy exige senha".** A causa real: `/var/www/reuniaopreparada/site/` e `/site/joao/` são donos de `www-data:www-data`, modo `755` — só o dono escreve. `rotacionar.sh` roda como usuário `joao`, sem sudo (por desenho, corretamente). Toda vez que `deploy.sh` roda (com sudo, por causa do usuário `joao`), seu `chown -R www-data:www-data` reafirma essa exclusividade, e seu `rsync -a --delete "$SRC"/ "$WEBROOT"/` sobrescreve `index.html`/`joao/index.html` com o que estava congelado no build LOCAL no momento do rsync pro staging — nem sempre a variante certa pra data de HOJE.
+
+O bug ficou invisível porque `rotacionar.sh`'s `publicar()` chama `cp`/`mv` dentro de `cmd && MUDOU=1 || true` — quando a escrita falha por permissão, o `|| true` absorve o erro (nunca propaga sob `set -e`), e o script segue até a AUTOVERIFICAÇÃO, que corretamente grita "ALERTA: webroot != variante" no log — mas nunca CONSEGUE corrigir, porque a escrita nunca teve permissão pra acontecer, hora após hora. Provado ao vivo em 20/08: `touch /var/www/reuniaopreparada/site/_perm_test` como usuário `joao` → `Permission denied`.
+
+### 13.3 Correção de desenho, permanente
+- **`chmod 2775` nos 2 diretórios** (`site/` e `site/joao/`) + **`joao` adicionado ao grupo `www-data`** (setup único, sudo, comando no relatório de 20/08) — dá a `rotacionar.sh` permissão de escrever sem nunca precisar de sudo.
+- **`deploy.sh` alterado** (20/08): `rsync` agora usa `--exclude=index.html --exclude=joao/index.html` — esses 2 arquivos NUNCA MAIS vêm do deploy de conteúdo. São propriedade EXCLUSIVA de `rotacionar.sh`. Isso elimina a causa raiz de fundo (dois processos escrevendo no mesmo arquivo com fontes de verdade diferentes), não só o sintoma de permissão.
+- **Verificação independente nova**: `verificar_rotacao.py` no VPS (cron horário, minuto :20, separado do minuto :07 de `rotacionar.sh`), faz um GET real na URL pública e compara contra a data de hoje — não depende da própria escrita ter funcionado, então pega classes de falha que a autoverificação de `rotacionar.sh` sozinha não pegaria (cache externo, DNS, etc). Log: `/home/joao/jwprep-deploy/verificacao-independente.log`.
+
+## §14. "COMENTANDO A IMAGEM" — REGRA PERMANENTE DE BREVIDADE `[REGRA PERMANENTE 20/08/2026]`
+
+### 14.1 O defeito, achado ao vivo (Parte 1 de VM 17-23)
+O comentário de imagem vinha gastando a maior parte do texto (1600+ caracteres em alguns casos) descrevendo o cenário, piso, luminárias, cor de poltrona, cor de roupa, comida na mesa, e a lição ficava espremida numa frase no fim. Isso é um catálogo de cenário, não um comentário.
+
+### 14.2 A regra
+**O comentário descreve apenas o que carrega significado. Detalhe visual entra quando serve à lição, nunca como decoração.**
+
+No exemplo que motivou a regra (VM 17-23, Parte 1): SERVE — a logomarca de site que não é o jw.org no tablet, os comentários de estranhos embaixo do vídeo, a coluna de vídeos sugeridos, a cara de quem pergunta "olha o que me mandaram". NÃO SERVE — piso, luminárias, poltronas, cor de roupa, comida na mesa.
+
+### 14.3 Estrutura alvo
+Uma ou duas frases situando a cena, o detalhe que carrega o ponto, a ligação com a parte/parágrafo, e a lição prática. Bem mais curto que o formato antigo.
+
+### 14.4 Trava automática `[CÓDIGO]`
+`tests/test_qualidade_comentario.py`, rodada pelo `web/auditor.py` em toda semana ≥ `DATA_CORTE` (2026-08-17): reprova por dois sinais — comprimento acima de 750 caracteres, ou 4+ termos da lista de decoração de cenário (piso, luminária, poltrona, sofá, cor de roupa, comida, móveis, etc.) num único comentário. Fixture negativo em `tests/fixtures/regressao_comentario_imagem_cenario/` usa a cópia real, pré-correção, da Parte 1 de 17-23, pra provar que a trava pega o defeito conhecido.
+
+## §15. "APRENDA MAIS" COMO INSUMO DAS RESPOSTAS — PROCESSO PERMANENTE `[REGRA PERMANENTE 20/08/2026]`
+
+### 15.1 O problema
+O bloco `@APRENDAMAIS` só cita o vídeo/artigo indicado pela fonte oficial e ninguém lê. Mas esse material às vezes traz um fato ou detalhe concreto que ilumina uma das perguntas oficiais do capítulo — e isso ficava jogado fora.
+
+### 15.2 O processo, por semana (aplica-se ao capítulo do "estudo de livro", `Ande Corajosamente com Deus`)
+1. Transcrever localmente o vídeo indicado (pipeline `web/transcribe.py`, whisper.cpp) quando houver vídeo.
+2. Ler o(s) artigo(s) indicado(s) INTEIRO(S) no jw.org.
+3. Aplicar a régua do §15.3 pra decidir o que entra — **procurando em TODA a seção, não só nas 4 perguntas numeradas (`@HQ`).** Achado de 20/08/2026: a primeira passada só conferia se o material batia com uma das `@HQ` diretamente, e isso descartou cedo demais material que dava profundidade a outras partes (o texto de abertura `@HISTORIA`/"Para considerar", o bloco `@HREFLEXAO` de aplicação, o `@HAPLICAR`). Um detalhe do relato, uma consequência, um dado concreto, um contraste — tudo conta, não só o que responde a pergunta oficial diretamente.
+4. O que passa na régua entra como `Complementar N (do artigo/vídeo indicado em Aprenda mais, "<título>", <referência>): ...` **dentro** da pergunta oficial (`@HQ`) que ele ilumina — nunca como bloco separado no fim. Só na versão PESSOAL, junto dos demais `Complementar`. Quando o material serve à pergunta de aplicação pessoal do `@HREFLEXAO` (ver §17), a origem entra dentro do próprio texto da opção, não como linha `Complementar` separada (esse bloco não usa esse formato).
+
+### 15.3 A régua
+**Entra quando acrescenta fato ou detalhe concreto que o capítulo não tem. Fica de fora quando é só mais uma reflexão sobre o mesmo ponto.** Comentário de reunião que começa em "eu vi num vídeo" desloca o foco do capítulo que todos estudaram, então só vale quando o que se traz é substância. Nem toda semana vai ter algo que passa nessa régua — mas a régua tem que ser aplicada com generosidade real, contra a seção inteira, antes de concluir isso (ver §16).
+
+### 15.4 Fonte da verdade
+**Transcrição não é fonte.** Nome próprio, lugar, publicação e citação bíblica trazidos por uma transcrição são sempre conferidos no jw.org/TNM antes de entrar num Complementar — a transcrição só indica onde procurar. Fato tirado de artigo lido direto no jw.org não precisa dessa conferência extra (já é a fonte).
+
+### 15.5 O bloco `@APRENDAMAIS` em si
+Continua exatamente como está, só apontando pro material. Nunca vira sua própria seção de perguntas e respostas.
+
+## §16. RELATÓRIO SÓ AFIRMA VERIFICAÇÃO QUE TEM ARTEFATO `[REGRA PERMANENTE 20/08/2026]`
+
+### 16.1 O que aconteceu
+Achado do João, mais grave que erro de conteúdo: um relatório afirmou ter transcrito o vídeo e lido o artigo do Aprenda mais de uma semana, e concluiu que "nada ali servia". O João leu o mesmo material e achou que quase tudo ajudaria. Investigando, os dois artefatos eram reais (arquivo de transcrição existente, artigo de fato buscado ao vivo) — o erro não foi fabricar a verificação, foi julgar o material com uma régua estreita demais (só contra as 4 perguntas numeradas, ver §15.2) e descartar cedo demais. Mas a lição fica: um relatório que afirma "verificado, nada encontrado" sem provar o artefato é indistinguível, pra quem lê, de um relatório que nunca verificou nada. É a mesma frase nos dois casos, e só uma delas é verdade.
+
+### 16.2 A regra
+**Relatório só afirma "verificado" quando existe artefato conferível, citado no próprio relatório:**
+- Transcrição de vídeo = caminho de arquivo real, existente (prova com `ls -la` ou equivalente), com conteúdo de verdade (não só cabeçalho vazio).
+- Artigo lido = URL real, buscada ao vivo (não de memória de sessão anterior), com confirmação de que o fetch voltou conteúdo.
+
+**Sem artefato, o relatório escreve "não verificado" — nunca "verificado e nada encontrado".** Essa frase (ou qualquer variação de "conferi e não achei nada") só pode aparecer com o artefato colado junto, no mesmo parágrafo.
+
+### 16.3 Trava automática (proxy) `[CÓDIGO]`
+`tests/test_origem_aprenda_mais.py`: todo `Complementar N (...)` que credita "Aprenda mais" precisa citar, dentro do próprio parêntese de origem, uma referência concreta e conferível — código de publicação (padrão `wNN`, ex. "w16.02", "w04 15/4") ou URL. Origem vaga tipo "Complementar (do Aprenda mais)" sem mais nada reprova. Fixture negativo em `tests/fixtures/regressao_origem_aprenda_mais_vaga/`. Isto é o proxy automatizável da regra — o teste não prova que o fetch realmente aconteceu (isso é fato de execução, não de arquivo), mas força todo Complementar a nomear algo que dá pra conferir por fora.
+
+## §17. PERGUNTA DE APLICAÇÃO PESSOAL NUNCA FICA DEVOLVIDA AO LEITOR `[REGRA PERMANENTE 20/08/2026]`
+
+### 17.1 O defeito, com os dois exemplos reais que reprovam (VM 17-23, antes da correção)
+> ***De que outras maneiras você pode imitar a coragem que Abraão mostrou nesse relato?*** É a pergunta de aplicação pessoal que fecha essa parte, sem resposta pronta.
+
+> ***O que eu gostaria de perguntar para Abraão ou Ló quando eles forem ressuscitados?*** Fica pra reflexão pessoal de cada um.
+
+Isso é abandono, não respeito pela autonomia do leitor. O irmão chega na pergunta mais difícil do estudo e encontra um aviso de que está sozinho. O propósito do projeto é dar munição pra pensar, não devolver a pergunta de volta.
+
+### 17.2 A regra
+Pergunta de aplicação pessoal (do tipo "de que outras maneiras você pode imitar...") ou de imaginar (do tipo "o que eu gostaria de perguntar pra X ressuscitado") **sempre recebe 2 ou 3 possibilidades concretas**, apresentadas como opções pro irmão escolher a que cabe na vida dele — nunca resposta única obrigatória, nunca devolvida ao leitor.
+
+**Concreto, não genérico.** "Ser mais corajoso" não serve. Serve a situação real e específica: voltar a falar com quem já disse não, aceitar a designação que dá medo, procurar o irmão que se afastou. Pra pergunta de imaginar, as 2-3 opções são perguntas concretas ancoradas em algo que o próprio relato bíblico deixa em aberto (o texto não diz X, então cabe perguntar Y).
+
+**O tom é de opção, nunca de resposta única.** A escolha é do irmão, mas ele escolhe entre coisas, não entre o nada.
+
+**Proibido devolver a pergunta ao leitor.** As frases "fica pra reflexão pessoal", "sem resposta pronta" e equivalentes saem, e não voltam — em nenhuma versão, em nenhuma semana futura.
+
+### 17.3 Escopo
+Vale pro bloco `@HREFLEXAO` do VM (é onde esse padrão de pergunta aberta aparece). Varrido contra Sentinela também — lá o `@APLICACAO`/`@ORACAO` já é estruturado em opções concretas desde a origem (não tem o padrão de cop-out), então normalmente não há o que corrigir; se algum dia aparecer, a mesma regra vale.
+
+### 17.4 Trava automática `[CÓDIGO]`
+`tests/test_aplicacao_pessoal.py`: reprova por (1) lista fixa de frases de escape conhecidas ("sem resposta pronta", "fica pra/para reflexão pessoal", etc.) — qualquer uma encontrada reprova na hora; (2) pra pergunta identificada como "alvo" (bate no padrão de aplicação/imaginar deste livro de estudo — "de que outras maneiras", "gostaria de perguntar", "como você pode imitar... na sua vida"), resposta abaixo de 150 caracteres é suspeita de cop-out disfarçado. O limiar de tamanho só vale pra pergunta-alvo, não pra toda pergunta de `@HREFLEXAO` (perguntas normais podem ser legitimamente curtas). Fixture negativo em `tests/fixtures/regressao_aplicacao_pessoal_sem_opcoes/`, com a cópia real (pré-correção) de 17-23 — os dois exemplos de §17.1.
+
+## §18. CONTESTAÇÃO DE REPROVAÇÃO SÓ VALE COM TRECHO DA FONTE COLADO `[REGRA PERMANENTE 21/08/2026]`
+
+### 18.1 O que aconteceu
+Uma nota de rodapé da Sentinela 17-23 foi apontada como ausente. Numa rodada anterior, a reprovação foi contestada ("já está presente, falso positivo") sem colar o trecho da fonte que provava isso. Achado do João, 21/08/2026: essa contestação custou uma rodada inteira de investigação. (Nesta rodada específica, a investigação ao vivo confirmou que a nota de fato estava presente no arquivo — mas isso não muda a regra: a contestação anterior não tinha vindo com prova, só com afirmação.)
+
+### 18.2 A regra, simétrica
+**Contestar uma reprovação só vale com o trecho da fonte em português colado — o texto literal, não um resumo, não "já conferi".** Vale nos dois sentidos:
+- Pra o auditor (`web/auditor.py`): toda linha "NÃO bate" ou "SIM" tem que carregar a prova (`prova` no dicionário de retorno de `_rodar`), nunca só o veredito.
+- Pra mim (o agente): se eu vou dizer que uma reprovação está errada, colo o trecho real da fonte que prova isso — a URL buscada ao vivo, o texto exato encontrado, não a minha lembrança de uma verificação anterior nesta mesma sessão. "Já verifiquei isso antes" não é prova; "aqui está o texto, buscado agora" é.
+
+### 18.3 Aplicação
+Isso já era a prática de fato em boa parte do projeto (ver §16, sobre artefato obrigatório pro Aprenda mais) — esta seção formaliza o princípio geral, que vale pra qualquer contestação de reprovação, não só pra Aprenda mais.
+
+## §19. ÁUDIO OFICIAL COMO SEGUNDA FONTE — REGRA PÉTREA `[REGRA PERMANENTE 21/08/2026]`
+
+### 19.1 A regra
+**Toda semana, VM e Sentinela, tem o áudio oficial do jw.org baixado e transcrito antes de o material ser dado como pronto. Sem exceção, sem semana dispensada.** A transcrição é lida inteira e comparada com a nossa saída. Elemento oficial que o áudio lê e o nosso arquivo não tem é defeito, e entra.
+
+Corre em **todas** as semanas, não só nas suspeitas — decisão explícita do João, contra a recomendação inicial de rodar só onde já havia desconfiança: suspeita depende de alguém já desconfiar, e o defeito que já machucou este projeto sempre foi o que ninguém desconfiava (nota de rodapé, cântico de encerramento, ambos achados por acidente, não por suspeita prévia). Vinte minutos de transcrição automática custam menos que descobrir a falta no meio da reunião.
+
+### 19.2 Por que áudio: existe pra quem não enxerga
+Todo estudo no jw.org tem áudio oficial pra download, que lê em voz alta descrição de imagem, nota de rodapé e quadros — porque existe pra quem não enxerga. É exatamente a classe de elemento que o parser de HTML perdeu em silêncio neste projeto (alt reescrito, legenda inventada, nota de rodapé sumindo, pergunta sem bloco de resposta). Onde o parser lê estrutura, o áudio lê **conteúdo lido em voz alta pra ninguém ficar de fora** — é uma fonte genuinamente independente, não uma segunda passada pelo mesmo caminho.
+
+### 19.3 Como o áudio é encontrado `[CÓDIGO: web/audio_fonte.py]`
+API pública de mídia do jw.org:
+```
+https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS
+    ?output=json&pub=<codigo>&issue=<AAAAMM>&fileformat=MP3
+    &alllangs=0&langwritten=T&txtCMSLang=T&docid=<docid>
+```
+`docid` é o MESMO número que já aparece nas URLs de imagem do artigo (`cms-imgp.jw-cdn.org/img/p/<docid>/...`) e no atributo `docId-<docid>` do `<body>` da página. `issue` é o `iss-<AAAAMM>` do mesmo `<body>`. `pub` muda por tipo: Sentinela de estudo = `w`; apostila da Reunião Vida e Ministério = `mwb`. A resposta traz `files.T.MP3[0].file.url` (o MP3 real). Transcrição pelo mesmo pipeline local de vídeo (`web/transcribe.py`, whisper.cpp/Metal) — sem Transkriptor.
+
+Achado nesta rodada: **VM também tem áudio oficial** (`pub=mwb`), mas cobre só a apostila/programação (cânticos, partes numeradas, durações, "para meditar", descrição de imagem das Partes 1 e 7) — **não lê o capítulo do livro de estudo de congregação** (isso é outra publicação, com áudio próprio se existir, não coberto ainda). O comparador de VM (`comparar_vm`) reflete esse escopo: cântico + partes, não pergunta numerada nem objetivo (que são conceitos só de Sentinela).
+
+### 19.4 Transcrição NÃO é fonte pra grafia `[PROVA MEDIDA, NÃO HIPÓTESE]`
+Nome próprio, citação bíblica, referência e código de publicação continuam vindo do texto escrito em português no jw.org. O áudio serve pra achar o que falta, nunca pra copiar palavra. Prova real, medida em teste (21/08/2026, semana 2026-08-17): a mesma frase de Colossenses 3:12 apareceu duas vezes no mesmo áudio — a transcrição errou "revistam-se de **eterna** compaixão" na primeira ocorrência e acertou "**terna** compaixão" (o texto certo da TNM) na segunda. Mesmo áudio, mesma frase, dois resultados. Achado complementar (21/08, semana 2026-08-24): o alt oficial escrito no jw.org tem "Aprenda do Grande **Intrutor**" (sem o "s" — aparente erro de digitação da própria fonte), e o áudio "corrigiu" ao ler, pronunciando "Instrutor" corretamente. Isso prova o oposto do que pareceria óbvio: **usar o áudio pra "consertar" a grafia teria introduzido um desvio da fonte escrita real**, que é o que manda.
+
+### 19.5 O que o áudio NÃO dá
+Estrutura (não diferencia pergunta numerada de subtítulo sem cruzar com o HTML), URL de imagem, formatação de referência, código de publicação. O HTML continua definindo tudo isso — o áudio só aponta ausência de conteúdo.
+
+### 19.6 Validação: teste cego real `[21/08/2026]`
+Rodado contra 2026-08-17 (semana já corrigida): zero divergência — prova de que o método não dá alarme falso numa semana limpa. Rodado às cegas contra 2026-06-22 (semana catalogada com defeito real, sem que o agente soubesse de antemão qual dos 3 gaps catalogados olhar): a transcrição achou sozinha os 3 gaps (cântico de abertura, cântico de encerramento, objetivo — todos ausentes) mais o §8 com nota de rodapé e alt divergentes do que o áudio descreve. Também diferenciou corretamente os parágrafos com nota dos sem nota (§3 e §6 da mesma semana, sem nota na fonte, não geraram alarme). Método validado — virou regra pétrea.
+
+### 19.7 Checagem automática `[CÓDIGO]`
+`web/audio_compare.py` (`extrair_sentinela`/`comparar_sentinela`, `extrair_vm`/`comparar_vm`) + `tests/test_audio_segunda_fonte.py`. Cobre cântico de abertura, cântico de encerramento, objetivo (Sentinela), descrição de imagem por parágrafo/parte (heurística de cobertura de palavras — limiar 15%, calibrado contra os 3 casos reais do §19.6). Divergência falha o build. **Cache ausente reprova, nunca aprova por omissão** (§2.5): toda semana ≥ `DATA_CORTE` (2026-08-17) precisa ter a transcrição já baixada em `~/Fabrica_Perfumes/pensamento/fontes/transcricao_audio_{tipo}_{semana}.txt` — sem isso, o teste falha explicitamente pedindo pra rodar `web/audio_fonte.py::baixar_e_transcrever`. Fixture negativo real em `tests/fixtures/regressao_audio_segunda_fonte/` (cópia de 2026-06-22 + sua transcrição real).
+
+### 19.8 Semanas passadas
+15 de junho a 10 de agosto seguem catalogadas e sem correção, por decisão do João (mesmo corte de Fase 5 usado em todas as regras novas desta sessão). A ferramenta fica pronta pra varrer todas de uma vez quando ele liberar.
+
+### 19.9 Daqui pra frente
+Da geração de setembro em diante, o áudio entra como passo obrigatório do processo, junto com o scrape do HTML — não é mais só verificação, é parte de como a semana é gerada.
 
 ---
 
